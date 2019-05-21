@@ -1,0 +1,6 @@
+framework module Blockly {
+  umbrella header "Blockly-umbrella.h"
+
+  export *
+  module * { export * }
+}

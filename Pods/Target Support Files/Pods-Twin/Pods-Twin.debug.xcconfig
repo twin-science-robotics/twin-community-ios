@@ -1,0 +1,13 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AEXML" "${PODS_CONFIGURATION_BUILD_DIR}/Blockly" "${PODS_CONFIGURATION_BUILD_DIR}/Realm" "${PODS_CONFIGURATION_BUILD_DIR}/RealmSwift" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyBeaver"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AEXML/AEXML.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Blockly/Blockly.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Realm/Realm.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/RealmSwift/RealmSwift.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyBeaver/SwiftyBeaver.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Realm/core"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_CONFIGURATION_BUILD_DIR}/AEXML/AEXML.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/Blockly/Blockly.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/Realm/Realm.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/RealmSwift/RealmSwift.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyBeaver/SwiftyBeaver.framework/Headers" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/AEXML" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/Blockly" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/Realm" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/RealmSwift" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyBeaver"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"z" -framework "AEXML" -framework "Blockly" -framework "Realm" -framework "RealmSwift" -framework "Security" -framework "SwiftyBeaver" -framework "WebKit"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

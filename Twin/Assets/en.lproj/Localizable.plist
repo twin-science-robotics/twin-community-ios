@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BlocklyViewController_GiveProjectName</key>
+	<string>Give a project name</string>
+	<key>BlocklyViewController_NewProject</key>
+	<string>NEW PROJECT</string>
+	<key>ProjectsViewController_MyProjects</key>
+	<string>My Projects</string>
+	<key>ProjectsViewController_Samples</key>
+	<string>Examples</string>
+	<key>ProjectsViewController_DeleteProject</key>
+	<string>Project will be deleted forever, confirm?</string>
+	<key>BlocklyViewController_Save_Success</key>
+	<string>Project saved successfully</string>
+	<key>BlocklyViewController_Save_Failure</key>
+	<string>Project saved successfully</string>
+	<key>TwinDiscovery_Error_Bluetooth</key>
+	<string>Please turn on your Bluetooth service</string>
+	<key>TwinDiscovery_SearchingTwins</key>
+	<string>Searching nearby twins</string>
+	<key>BlocklyViewController_ExitWithoutSave</key>
+	<string>The current project is not saved, whether to continue to exit?</string>
+	<key>BlocklyViewController_ConnectedSuccesfully</key>
+	<string>Succesfully connected</string>
+	<key>BlocklyViewController_TimeOut</key>
+	<string>Connection timeout. Please try again.</string>
+	<key>BlocklyViewController_Disconnected</key>
+	<string>Connection lost</string>
+	<key>BlocklyViewController_JSError_InfiniteLoop</key>
+	<string>Code evaluation stopped due to reach loop limit</string>
+	<key>Global_Next</key>
+	<string> Next</string>
+	<key>Global_Back</key>
+	<string> Back</string>
+	<key>Global_Ok</key>
+	<string>OK</string>
+	<key>Global_Save</key>
+	<string>Save</string>
+	<key>Global_Dont_Save</key>
+	<string>Don&apos;t Save</string>
+	<key>Global_Cancel</key>
+	<string>Cancel</string>
+	<key>Global_No</key>
+	<string>No</string>
+	<key>Global_Yes</key>
+	<string>Yes</string>
+</dict>
+</plist>

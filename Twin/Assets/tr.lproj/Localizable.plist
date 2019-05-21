@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BlocklyViewController_GiveProjectName</key>
+	<string>Projenize isim verin.</string>
+	<key>BlocklyViewController_NewProject</key>
+	<string>YENİ PROJE</string>
+	<key>ProjectsViewController_MyProjects</key>
+	<string>Projelerim</string>
+	<key>ProjectsViewController_Samples</key>
+	<string>Örnekler</string>
+	<key>ProjectsViewController_DeleteProject</key>
+	<string>Projeyi silmek istediğinizden emin misiniz?</string>
+	<key>BlocklyViewController_Save_Success</key>
+	<string>Proje başarı ile kaydedildi</string>
+	<key>BlocklyViewController_Save_Failure</key>
+	<string>Proje kaydedilirken bir hata ile karşılaşıldı</string>
+	<key>TwinDiscovery_Error_Bluetooth</key>
+	<string>Bluetooth açık değil</string>
+	<key>TwinDiscovery_SearchingTwins</key>
+	<string>Yakınınızdaki twinler aranıyor</string>
+	<key>BlocklyViewController_ExitWithoutSave</key>
+	<string>Değişiklikler kaydedilmedi, projeyi kaydetmek ister misin?</string>
+	<key>BlocklyViewController_ConnectedSuccesfully</key>
+	<string>Başarı ile bağlantı kuruldu</string>
+	<key>BlocklyViewController_TimeOut</key>
+	<string>Bağlantı zaman aşımına uğradı. Lütfen tekrar dene.</string>
+	<key>BlocklyViewController_Disconnected</key>
+	<string>Bağlantınız koptu</string>
+	<key>BlocklyViewController_JSError_InfiniteLoop</key>
+	<string>Döngü limitine ulaşıldığından çalışma durduruldu</string>
+	<key>Global_Next</key>
+	<string> İleri</string>
+	<key>Global_Back</key>
+	<string> Geri</string>
+	<key>Global_Ok</key>
+	<string>Tamam</string>
+	<key>Global_Save</key>
+	<string>Kaydet</string>
+	<key>Global_Dont_Save</key>
+	<string>Kaydetme</string>
+	<key>Global_Cancel</key>
+	<string>Vazgeç</string>
+	<key>Global_No</key>
+	<string>Hayır</string>
+	<key>Global_Yes</key>
+	<string>Evet</string>
+</dict>
+</plist>

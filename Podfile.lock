@@ -1,0 +1,34 @@
+PODS:
+  - AEXML (4.1.0)
+  - Blockly (1.2.2):
+    - AEXML (~> 4.1.0)
+  - Realm (3.13.1):
+    - Realm/Headers (= 3.13.1)
+  - Realm/Headers (3.13.1)
+  - RealmSwift (3.13.1):
+    - Realm (= 3.13.1)
+  - SwiftyBeaver (1.7.0)
+
+DEPENDENCIES:
+  - Blockly
+  - RealmSwift
+  - SwiftyBeaver
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AEXML
+    - Blockly
+    - Realm
+    - RealmSwift
+    - SwiftyBeaver
+
+SPEC CHECKSUMS:
+  AEXML: 647fbb051280f3fb38a1a7caa62b0344055a851c
+  Blockly: 9980f20f43808b8bd0a4e00a2d66267ab855bdb7
+  Realm: 50071da38fe079e0735e47c9f2eae738c68c5996
+  RealmSwift: 8a1e6a02b7a08cd17a31e3115143fb69fe5f3fb9
+  SwiftyBeaver: 4cc0080d2e23f980652e28978db11a5c9da39165
+
+PODFILE CHECKSUM: 7e38101eb677f265da91bee9dd48dfe7e3c3459a
+
+COCOAPODS: 1.6.1
